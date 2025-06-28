@@ -4,6 +4,7 @@ import Biography from '../components/Home/Biography';
 import SkillsAndTools from '../components/Home/SkillsAndTools';
 import Education from '../components/Home/Education';
 import Certifications from '../components/Home/Certifications';
+import Contact from '../components/Home/Contact';
 
 const Home = () => {
     return (
@@ -22,6 +23,9 @@ const Home = () => {
             </section>
             <section>
                 <Certifications></Certifications>
+            </section>
+            <section>
+                <Contact></Contact>
             </section>
         </div>
     );

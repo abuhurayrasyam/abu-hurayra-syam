@@ -24,7 +24,7 @@ const SkillsAndTools = () => {
             <FaNodeJs size={40} className="text-[#339933]" title="Node.js" />
             <SiExpress size={40} className="text-white" title="Express.js" />
             <SiMongodb size={40} className="text-[#47A248]" title="MongoDB" />
-            <SiFirebase size={40} className="text-[#FFCA28]" title="Firebase" />
+            <SiFirebase size={40} className="text-[#FFCA28] mr-10 md:mr-20 lg:mr-30" title="Firebase" />
           </div>
         </Marquee>
       </div>
