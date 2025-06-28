@@ -1,14 +1,15 @@
 import React from 'react';
 import logo from '../../assets/logo.png';
+import { FaEye } from 'react-icons/fa6';
 
 const Navbar = () => {
 
     const navLinks = (
         <>
             <a href="#biography" className='btn bg-primary border-none m-2 cursor-pointer text-secondary font-semibold'>Biography</a>
-            <a href="#skills" className='btn bg-primary border-none m-2 cursor-pointer text-secondary font-semibold'>Skills</a>
+            <a href="#skills&tools" className='btn bg-primary border-none m-2 cursor-pointer text-secondary font-semibold'>Skills & Tools</a>
             <a href="#education" className='btn bg-primary border-none m-2 cursor-pointer text-secondary font-semibold'>Education</a>
-            <a href="#bootcamp" className='btn bg-primary border-none m-2 cursor-pointer text-secondary font-semibold'>Bootcamp</a>
+            <a href="#certifications" className='btn bg-primary border-none m-2 cursor-pointer text-secondary font-semibold'>Certifications</a>
             <a href="#projects" className='btn bg-primary border-none m-2 cursor-pointer text-secondary font-semibold'>Projects</a>
             <a href="#contact" className='btn bg-primary border-none m-2 cursor-pointer text-secondary font-semibold'>Contact</a>
         </>
@@ -36,7 +37,10 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn bg-[#1f83ed] border-none rounded-xl text-accent">Resume</a>
+                    <a href="/Resume.pdf" target='_blank' className="btn bg-neutral border-none shadow-md rounded-xl text-secondary flex items-center gap-1">
+                        <FaEye />
+                        <p>View Resume</p>
+                    </a>
                 </div>
             </div>
         </div>
