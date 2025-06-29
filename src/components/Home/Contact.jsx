@@ -50,7 +50,7 @@ const Contact = () => {
         </div>
         <div className="container mx-auto flex flex-col md:flex-row">
           <section className="flex w-full md:w-1/2 justify-center">
-            <img className="rounded-xl w-[250px] md:w-[400px]" src={myImg} alt="Abu Hurayra Syam" />
+            <img className="rounded-xl w-[250px] md:w-[500px]" src={myImg} alt="Abu Hurayra Syam" />
           </section>
           <section className="w-full md:w-1/2">
             <p className="text-primary font-extrabold text-lg flex justify-center md:justify-start mt-5 md:mt-0 mb-3">Message</p>

@@ -4,6 +4,7 @@ import Biography from '../components/Home/Biography';
 import SkillsAndTools from '../components/Home/SkillsAndTools';
 import Education from '../components/Home/Education';
 import Certifications from '../components/Home/Certifications';
+import Projects from '../components/Home/Projects';
 import Contact from '../components/Home/Contact';
 
 const Home = () => {
@@ -23,6 +24,9 @@ const Home = () => {
             </section>
             <section>
                 <Certifications></Certifications>
+            </section>
+            <section>
+                <Projects></Projects>
             </section>
             <section>
                 <Contact></Contact>
