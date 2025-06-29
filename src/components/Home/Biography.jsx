@@ -1,5 +1,6 @@
 import React from 'react';
 import myImg from '../../assets/abu-hurayra-syam.jpg';
+import { motion } from "framer-motion";
 
 const Biography = () => {
     return (
@@ -11,7 +12,7 @@ const Biography = () => {
 
             <div className="container mx-auto flex flex-col md:flex-row">
                 <section className="flex w-full md:w-1/2 justify-center">
-                    <img className="w-[250px] md:w-[450px] rounded-xl" src={myImg} alt="Abu Hurayra Syam"/>
+                    <motion.img animate={{ y: [0, -10, 0] }} transition={{ duration: 2, repeat: Infinity }} className="w-[250px] md:w-[450px] rounded-xl" src={myImg} alt="Abu Hurayra Syam"/>
                 </section>
 
                 <section className="w-full md:w-1/2 justify-center p-5">

@@ -116,7 +116,7 @@ const Projects = () => {
                       <li key={index}>{feature}</li>
                     ))}
                   </ul>
-                  <div className="flex flex-wrap gap-4 mb-6">
+                  <div className="flex justify-center md:justify-start flex-wrap gap-4 mb-6">
                     {project.techStack.map((tech) => (
                       <div key={tech} className="flex items-center gap-2">
                         {techIcons[tech] || <span className="text-neutral">{tech}</span>}

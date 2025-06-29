@@ -15,13 +15,13 @@ const Hero = () => {
                 <p className='text-neutral'>I’m a passionate Full Stack Web Developer specialized in the MERN Stack. My core strength is building scalable and secure web applications.</p>
                 <div className='flex gap-3'>
                     <Link to={'https://github.com/abuhurayrasyam'} target="_blank">
-                        <FaGithub size={24} />
+                        <FaGithub size={24} style={{ color: '#fff' }} />
                     </Link>
                     <Link to={'https://www.linkedin.com/in/abuhurayrasyam'} target="_blank">
-                        <FaLinkedin size={24} />
+                        <FaLinkedin size={24} style={{ color: '#0A66C2' }} />
                     </Link>
                     <Link to={'https://x.com/abuhurayrasyam'} target="_blank">
-                        <FaXTwitter size={24} />
+                        <FaXTwitter size={24} style={{ color: '#fff' }} />
                     </Link>
                 </div>
                 <a href="/Resume.pdf" download="Abu_Hurayra_Syam_Resume.pdf">
@@ -32,7 +32,7 @@ const Hero = () => {
                 </a>
             </section>
             <section className="flex w-full md:w-1/2 p-10 justify-center items-center pt-[40px] md:pt-15">
-                <img className="w-[300px] h-[365px] md:w-[350px] md:h-[400px] rounded-xl" src={myImg} alt="Abu Hurayra Syam"/>
+                <img data-aos="zoom-in-up" data-aos-duration="1000" className="w-[300px] h-[365px] md:w-[350px] md:h-[400px] rounded-xl" src={myImg} alt="Abu Hurayra Syam"/>
             </section>
         </div>
     );

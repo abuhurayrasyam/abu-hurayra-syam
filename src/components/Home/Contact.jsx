@@ -5,6 +5,7 @@ import myImg from '../../assets/abu-hurayra-syam.jpg';
 import { Link } from 'react-router';
 import { FaGithub, FaLinkedin, FaSquareWhatsapp, FaXTwitter } from 'react-icons/fa6';
 import { BsDiscord } from 'react-icons/bs';
+import { motion } from "framer-motion";
 
 const Contact = () => {
   const formRef = useRef(null);
@@ -53,7 +54,7 @@ const Contact = () => {
         </div>
         <div className="container mx-auto flex flex-col md:flex-row">
           <section className="flex w-full md:w-1/2 justify-center">
-            <img className="rounded-xl w-[250px] md:w-[500px]" src={myImg} alt="Abu Hurayra Syam" />
+            <motion.img animate={{ y: [0, -10, 0] }} transition={{ duration: 2, repeat: Infinity }} className="rounded-xl w-[250px] md:w-[500px]" src={myImg} alt="Abu Hurayra Syam" />
           </section>
           <section className="w-full md:w-1/2">
             <p className="text-primary font-extrabold text-lg flex justify-center md:justify-start mt-5 md:mt-0 mb-3">Message</p>
@@ -62,7 +63,7 @@ const Contact = () => {
             </p>
             <p className="text-neutral flex justify-center md:justify-start mb-1">
               Call Me:&nbsp;
-              <a className="text-primary font-bold" href="tel:+8801327062338">+880 1531-759029</a>
+              <a className="text-primary font-bold" href="tel:+8801531759029">+880 1531-759029</a>
             </p>
             <p className="text-neutral flex justify-center md:justify-start mb-5">
               E-Mail:&nbsp;
