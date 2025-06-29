@@ -3,21 +3,21 @@ import myImg from '../../assets/abu-hurayra-syam.jpg';
 
 const Biography = () => {
     return (
-        <div id='biography' className='my-10'>
+        <div id='biography' className='mt-25 mb-10'>
             <div className="mb-8">
                 <p className="text-neutral text-lg text-center font-extrabold mb-2">BIOGRAPHY</p>
-                <p className="text-accent font-bold text-2xl md:text-3xl lg:text-4xl text-center">Professional Background</p>
+                <p className="text-accent font-bold text-2xl md:text-3xl text-center">Professional Background</p>
             </div>
 
             <div className="container mx-auto flex flex-col md:flex-row">
                 <section className="flex w-full md:w-1/2 justify-center">
-                    <img className="w-[250px] md:w-[360px] rounded-xl" src={myImg} alt="Abu Hurayra Syam"/>
+                    <img className="w-[250px] md:w-[450px] rounded-xl" src={myImg} alt="Abu Hurayra Syam"/>
                 </section>
 
                 <section className="w-full md:w-1/2 justify-center p-5">
                     <p className="text-primary text-lg font-extrabold text-center md:text-start pb-2">About Me</p>
                     <p className="text-neutral flex justify-center md:justify-start text-justify px-1 md:px-0 mb-5">
-                        I’m a passionate Full Stack Web Developer specialized in the MERN Stack (MongoDB, Express.js, React, Node.js). My core strength is building scalable and secure web applications. I also have hands-on experience with Firebase Authentication, and I’m skilled in Vulnerability Assessment & Penetration Testing (VAPT) using tools like Burp Suite and Acunetix. Currently, I’m pursuing a Diploma in Computer Science & Technology at Tangail Polytechnic Institute.
+                        I am a dedicated Full Stack Web Developer specializing in the MERN Stack (MongoDB, Express.js, React, Node.js), committed to building scalable, secure, and efficient web applications. Since starting my programming journey in May 2024, I have continuously enhanced my technical skills, including expertise in Vulnerability Assessment & Penetration Testing (VAPT) with tools like Burp Suite and Acunetix. Currently pursuing a Diploma in Computer Science & Technology at Tangail Polytechnic Institute, I combine strong academic foundations with hands-on experience. Beyond coding, I am passionate about problem-solving, learning new technologies, and personal growth. In my free time, I enjoy reading the Quran, exploring new places, and engaging in hobbies that keep me motivated and balanced.
                     </p>
 
                     <div className="flex flex-col md:flex-row">

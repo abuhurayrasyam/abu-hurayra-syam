@@ -32,10 +32,10 @@ const certificationsData = [
 
 const Certifications = () => {
   return (
-    <section id="certifications" className="my-16 px-4 max-w-5xl mx-auto">
+    <section id="certifications" className="mt-25 mb-10 w-11/12 mx-auto">
       <div className="mb-8">
           <p className="text-neutral text-lg text-center font-extrabold mb-2">CERTIFICATIONS</p>
-          <p className="text-accent font-bold text-2xl md:text-3xl lg:text-4xl text-center">Focused learning and industry-recognized achievements</p>
+          <p className="text-accent font-bold text-2xl md:text-3xl text-center">Certified skills through focused learning</p>
       </div>
 
       <div className="space-y-8">

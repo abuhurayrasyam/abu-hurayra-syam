@@ -43,10 +43,10 @@ const Contact = () => {
 
   return (
     <div id="contact">
-      <div className="my-10">
+      <div className="mt-25 mb-10">
         <div className="mb-8">
           <p className="text-neutral text-lg text-center font-extrabold mb-2">CONTACT</p>
-          <p className="text-accent font-bold text-2xl md:text-3xl lg:text-4xl text-center">Get in Touch</p>
+          <p className="text-accent font-bold text-2xl md:text-3xl text-center">Get in Touch</p>
         </div>
         <div className="container mx-auto flex flex-col md:flex-row">
           <section className="flex w-full md:w-1/2 justify-center">

@@ -8,10 +8,10 @@ import acunetixIcon from '../../assets/icons/acunetix.jpg';
 const SkillsAndTools = () => {
   return (
     <div id='skills&tools'>
-      <div className="my-10">
+      <div className="mt-25 mb-10">
         <div className="mb-8">
           <p className="text-neutral text-lg text-center font-extrabold mb-2">SKILLS</p>
-          <p className="text-accent font-bold text-2xl md:text-3xl lg:text-4xl text-center">
+          <p className="text-accent font-bold text-2xl md:text-3xl text-center">
            Technologies I Work With
           </p>
         </div>
@@ -32,7 +32,7 @@ const SkillsAndTools = () => {
       <div className="my-10">
         <div className="mb-8">
           <p className="text-neutral text-lg text-center font-extrabold mb-2">TOOLS</p>
-          <p className="text-accent font-bold text-2xl md:text-3xl lg:text-4xl text-center">
+          <p className="text-accent font-bold text-2xl md:text-3xl text-center">
             Tools & Platforms I Use
           </p>
         </div>

@@ -97,10 +97,10 @@ const Projects = () => {
 
   return (
     <div id="projects">
-      <div className="my-10 w-11/12 mx-auto">
+      <div className="mt-25 mb-10 w-11/12 mx-auto">
         <div className="mb-8">
           <p className="text-neutral text-lg text-center font-extrabold mb-2">PROJECTS</p>
-          <p className="text-accent font-bold text-2xl md:text-3xl lg:text-4xl text-center">Featured Projects Built with the MERN Stack</p>
+          <p className="text-accent font-bold text-2xl md:text-3xl text-center">Featured Projects Built with the MERN Stack</p>
         </div>
 
         <div className="flex flex-col gap-10">

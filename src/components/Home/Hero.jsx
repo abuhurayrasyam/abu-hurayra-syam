@@ -7,8 +7,8 @@ import { motion } from "motion/react"
 
 const Hero = () => {
     return (
-        <div className="flex flex-col-reverse md:flex-row">
-            <section className="w-full md:w-1/2 p-8 md:pt-[100px] space-y-4">
+        <div className="flex flex-col-reverse md:flex-row w-11/12 mx-auto">
+            <section className="w-full md:w-1/2 md:pt-[100px] space-y-4">
                 <motion.h1 animate={{color: ['#DAC5A7', '#b8a080'], transition: {duration: 2, repeat: Infinity}}} className="text-2xl md:text-3xl lg:text-5xl font-bold">Hello.</motion.h1>
                 <p className="border-l-4 h-[25px] border-accent pl-3 text-accent text-[21px] md:text-[26px] font-semibold flex items-center">I am Abu Hurayra Syam</p>
                 <p className="text-primary font-extrabold">Full Stack Web Developer (MERN) | VAPT Specialist</p>
@@ -31,7 +31,7 @@ const Hero = () => {
                     </button>
                 </a>
             </section>
-            <section className="flex w-full md:w-1/2 p-10 justify-center items-center pt-[65px] md:pt-15">
+            <section className="flex w-full md:w-1/2 p-10 justify-center items-center pt-[40px] md:pt-15">
                 <img className="w-[300px] h-[365px] md:w-[350px] md:h-[400px] rounded-xl" src={myImg} alt="Abu Hurayra Syam"/>
             </section>
         </div>

@@ -2,10 +2,10 @@ import React from 'react';
 
 const Education = () => {
     return (
-        <div id='education' className='my-10'>
+        <div id='education' className='mt-25 mb-10'>
             <div className="mb-8">
                 <p className="text-neutral text-lg text-center font-extrabold mb-2">EDUCATION</p>
-                <p className="text-accent font-bold text-2xl md:text-3xl lg:text-4xl text-center">Academic Background</p>
+                <p className="text-accent font-bold text-2xl md:text-3xl text-center">Academic Background</p>
             </div>
 
             <div className="flex w-full md:w-1/2 p-5 justify-center mx-auto">
