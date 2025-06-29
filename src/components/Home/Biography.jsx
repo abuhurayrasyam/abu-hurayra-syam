@@ -27,7 +27,7 @@ const Biography = () => {
                             <div className="absolute bottom-0 left-0 w-0 h-full bg-primary transition-all duration-300 group-hover:w-full rounded-xl"></div>
                         </div>
                         <div className="relative group bg-secondary border-l border-primary p-4 flex w-full md:w-1/2 mb-5 md:mr-10 rounded-xl">
-                            <p className="relative z-10 text-primary group-hover:text-accent md:w-[250px]">Phone No. / WhatsApp / Signal<br /><span className="text-accent group-hover:text-secondary">+880 1531-759029</span></p>
+                            <p className="relative z-10 text-primary group-hover:text-accent md:w-[250px]">Phone No. / WhatsApp<br /><span className="text-accent group-hover:text-secondary">+880 1531-759029</span></p>
                             <div className="absolute bottom-0 left-0 w-0 h-full bg-primary transition-all duration-300 group-hover:w-full rounded-xl"></div>
                         </div>
                     </div>

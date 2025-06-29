@@ -2,6 +2,9 @@ import React, { useRef, useState } from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
 import emailjs from 'emailjs-com';
 import myImg from '../../assets/abu-hurayra-syam.jpg';
+import { Link } from 'react-router';
+import { FaGithub, FaLinkedin, FaSquareWhatsapp, FaXTwitter } from 'react-icons/fa6';
+import { BsDiscord } from 'react-icons/bs';
 
 const Contact = () => {
   const formRef = useRef(null);
@@ -54,8 +57,8 @@ const Contact = () => {
           </section>
           <section className="w-full md:w-1/2">
             <p className="text-primary font-extrabold text-lg flex justify-center md:justify-start mt-5 md:mt-0 mb-3">Message</p>
-            <p className="text-accent text-[17px] flex justify-center md:justify-start mb-1">
-              Write Something about How can I Assist You
+            <p className="text-accent text-[17px] flex justify-center text-center md:text-start md:justify-start mb-1 w-11/12 md:w-auto mx-auto">
+              I'm here to assist you — feel free to reach out with any questions, collaborations, or project inquiries.
             </p>
             <p className="text-neutral flex justify-center md:justify-start mb-1">
               Call Me:&nbsp;
@@ -67,6 +70,24 @@ const Contact = () => {
                 abuhurayrasyamofficial@gmail.com
               </a>
             </p>
+
+            <div className="flex justify-center md:justify-start gap-3">
+              <Link to="https://github.com/abuhurayrasyam" target="_blank">
+                <FaGithub size={24} style={{ color: '#fff' }} />
+              </Link>
+              <Link to="https://www.linkedin.com/in/abuhurayrasyam" target="_blank">
+                <FaLinkedin size={24} style={{ color: '#0A66C2' }} />
+              </Link>
+              <Link to="https://x.com/abuhurayrasyam" target="_blank">
+                <FaXTwitter size={24} style={{ color: '#fff' }} />
+              </Link>
+              <Link to="https://discord.com/users/1112257007316111370" target="_blank">
+                <BsDiscord size={24} style={{ color: '#5865F2' }} />
+              </Link>
+              <Link to="https://wa.me/+8801531759029" target="_blank">
+                <FaSquareWhatsapp size={24} style={{ color: '#25D366' }} />
+              </Link>
+            </div>
 
             <form ref={formRef} onSubmit={sendEmail} className="p-5 md:pl-0">
               <div className="container mx-auto flex flex-col md:flex-row md:gap-5">
