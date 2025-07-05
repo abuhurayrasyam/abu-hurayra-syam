@@ -37,7 +37,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href="/Resume.pdf" target='_blank' className="btn bg-neutral border-none shadow-md rounded-xl text-secondary flex items-center gap-1">
+                    <a href="/Abu-Hurayra-Syam-Resume.pdf" target='_blank' className="btn bg-neutral border-none shadow-md rounded-xl text-secondary flex items-center gap-1">
                         <FaEye />
                         <p>View Resume</p>
                     </a>

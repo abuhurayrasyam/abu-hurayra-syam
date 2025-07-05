@@ -3,31 +3,31 @@ import React from 'react';
 const certificationsData = [
   {
     id: 1,
-    title: "Graphic Design",
-    provider: "Coderstrust",
-    providerUrl: "https://www.coderstrust.net/public/course-details/graphic-design-for-beginners",
-    description:
-      "This foundational course introduces core graphic design principles and tools. It helped me understand visual design, typography, color theory, and basic software to create appealing digital graphics.",
-    certificateUrl: "/certificates/graphics-design.jpg",
-  },
-  {
-    id: 2,
-    title: " Cyber Security & Ethical Hacking",
-    provider: "Arena Web Security",
-    providerUrl: "https://arenawebsecurity.net/cyber-security-ethical-hacking",
-    description:
-      "An intensive course focused on penetration testing, vulnerability assessment, and ethical hacking techniques to safeguard digital environments.",
-    certificateUrl: "/certificates/cyber-security.jpg",
-  },
-  {
-    id: 3,
-    title: "Full Stack Web Development (MERN)",
+    title: "Certificate of Completion in MERN Stack Web Development",
     provider: "Programming Hero",
     providerUrl: "https://web.programming-hero.com/course-details",
     description:
-      "A comprehensive full stack web development course, covering JavaScript, React, Node.js, and MongoDB, strengthening my MERN stack expertise.",
-    certificateUrl: "/certificates/mern-stack.jpg",
+      "Successfully completed a comprehensive full stack web development program specializing in the MERN stack (MongoDB, Express.js, React, Node.js). Developed expertise in designing and implementing secure, scalable, and efficient web applications with modern best practices. Gained practical experience in RESTful API development, user authentication and authorization (including JWT and Firebase Authentication), state management, and responsive UI design using Tailwind CSS.",
+    certificateUrl: "/certificates/mern-stack-certificate.jpg",
   },
+  {
+    id: 2,
+    title: "Certificate of Appreciation in Cyber Security",
+    provider: "Arena Web Security",
+    providerUrl: "https://arenawebsecurity.net/cyber-security-ethical-hacking",
+    description:
+      "Successfully completed professional training in Cyber Security, with a focus on penetration testing, vulnerability assessment, and ethical hacking techniques. Gained hands-on experience with industry-standard tools like Burp Suite and Acunetix to identify and mitigate security risks — strengthening the security layer of full-stack web applications.",
+    certificateUrl: "/certificates/cyber-security-certificate.jpg",
+  },
+  {
+    id: 3,
+    title: "Certificate of Achievement in Graphic Design",
+    provider: "Coderstrust",
+    providerUrl: "https://www.coderstrust.net/public/course-details/graphic-design-for-beginners",
+    description:
+      "Completed a foundational Graphic Design course focused on design principles, typography, color theory, and hands-on tools like Adobe Photoshop and Illustrator. These skills enhance my front-end development work by improving UI design and visual aesthetics in web applications.",
+    certificateUrl: "/certificates/graphics-design-certificate.jpg",
+  }
 ];
 
 const Certifications = () => {
